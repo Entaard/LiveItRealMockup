@@ -10,16 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var successRateView: UIView!
+    @IBOutlet weak var profileCellView: UIView!
+    @IBOutlet weak var onPhoneCellView: UIView!
+    @IBOutlet weak var pickupCellView: UIView!
+    
+    var pacificBlue = UIColor(red: 54/255, green: 219/255, blue: 202/255, alpha: 1)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        profileImageView.layer.masksToBounds = true
+        profileImageView.layer.cornerRadius = 40
+        
+        successRateView.layer.masksToBounds = true
+        successRateView.layer.cornerRadius = 50
+//        
+//        profileCellView.layer.borderColor = pacificBlue.cgColor
+//        profileCellView.layer.borderWidth = 2
+//        
+//        onPhoneCellView.layer.borderColor = pacificBlue.cgColor
+//        onPhoneCellView.layer.borderWidth = 2
+//        
+//        pickupCellView.layer.borderColor = pacificBlue.cgColor
+//        pickupCellView.layer.borderWidth = 2
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
