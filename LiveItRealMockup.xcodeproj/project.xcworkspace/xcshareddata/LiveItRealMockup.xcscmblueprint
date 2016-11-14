@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D017563F106689062916B9D0FC86168E501A5C90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D017563F106689062916B9D0FC86168E501A5C90" : 9223372036854775807,
+    "88C5D1AB1006A69E09841E46D3095A6E207E3C57" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "68230CE7-3025-4D91-8875-43F048770C57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D017563F106689062916B9D0FC86168E501A5C90" : "LiveItRealMockup\/",
+    "88C5D1AB1006A69E09841E46D3095A6E207E3C57" : "..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveItRealMockup",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LiveItRealMockup.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:nongdenchet\/ios_swift_sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88C5D1AB1006A69E09841E46D3095A6E207E3C57"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Entaard\/LiveItRealMockup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D017563F106689062916B9D0FC86168E501A5C90"
+    }
+  ]
+}

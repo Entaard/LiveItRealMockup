@@ -12,6 +12,7 @@
 		0B10ED821DD470E900F3674C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B10ED801DD470E900F3674C /* Main.storyboard */; };
 		0B10ED841DD470E900F3674C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B10ED831DD470E900F3674C /* Assets.xcassets */; };
 		0B10ED871DD470E900F3674C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B10ED851DD470E900F3674C /* LaunchScreen.storyboard */; };
+		0B2A0BEA1DD9ABB40087CD8B /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2A0BE91DD9ABB40087CD8B /* SettingTableViewController.swift */; };
 		0B8A236C1DD72C47007B1DBB /* LiRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A236B1DD72C47007B1DBB /* LiRViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		0B10ED831DD470E900F3674C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B10ED861DD470E900F3674C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B10ED881DD470E900F3674C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2A0BE91DD9ABB40087CD8B /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		0B8A236B1DD72C47007B1DBB /* LiRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0B10ED7C1DD470E900F3674C /* AppDelegate.swift */,
+				0B2A0BE91DD9ABB40087CD8B /* SettingTableViewController.swift */,
 				0B10ED7E1DD470E900F3674C /* ViewController.swift */,
 				0B10ED801DD470E900F3674C /* Main.storyboard */,
 				0B8A236B1DD72C47007B1DBB /* LiRViewController.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2A0BEA1DD9ABB40087CD8B /* SettingTableViewController.swift in Sources */,
 				0B8A236C1DD72C47007B1DBB /* LiRViewController.swift in Sources */,
 				0B10ED7F1DD470E900F3674C /* ViewController.swift in Sources */,
 				0B10ED7D1DD470E900F3674C /* AppDelegate.swift in Sources */,

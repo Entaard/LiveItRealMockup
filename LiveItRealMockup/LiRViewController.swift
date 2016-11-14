@@ -8,12 +8,25 @@
 
 import UIKit
 
-class LiRViewController: UITableViewController, UIPickerViewDelegate {
+class LiRViewController: UITableViewController, UITextFieldDelegate {
+    
+    @IBOutlet weak var goalInput: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        let navigationBar = navigationController?.navigationBar
+        
+        navigationBar?.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black,
+                                              NSFontAttributeName: UIFont(name: "Courier", size: 18)!]
+        navigationItem.title = "Timer"
+        
+        goalInput.delegate = self
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.endEditing(true)
+        return true
     }
 
 }

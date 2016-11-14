@@ -21,6 +21,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let navigationBar = navigationController?.navigationBar
+        
+        navigationBar?.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black,
+                                              NSFontAttributeName: UIFont(name: "Courier", size: 18)!]
+        navigationItem.title = "My Profile"
+        
         profileImageView.layer.masksToBounds = true
         profileImageView.layer.cornerRadius = 40
         
